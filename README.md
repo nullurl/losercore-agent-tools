@@ -21,6 +21,8 @@ For other clients, add the URL as a remote Streamable HTTP MCP server. [Setup an
 npx skills add nullurl/losercore-agent-tools --skill losercore-playlist
 ```
 
+[ClawHub listing](https://clawhub.ai/nullurl/losercore-playlist) · [Download Skill ZIP](https://github.com/nullurl/losercore-agent-tools/releases/latest)
+
 [Read the skill first](skills/losercore-playlist/SKILL.md). It contains instructions, public reference links and a dependency-free Node.js request helper. It supports agents implementing the SKILL.md format, including Codex and Claude Code. The skill does not automatically connect an MCP server; use the connection above or its bundled helper.
 
 Try: “Prepare a melancholy three-song Losercore playlist-video draft in Chinese. Use original captions and give me the JSON to import into the free video workspace.”
@@ -68,7 +70,7 @@ Local editing is free. Optional cloud AI is separate and uses credits. Fetch the
 Tool inputs pass through your chosen agent host and the Losercore service. The bridge/helper sends no API keys, local media or account cookies. Supplied titles/captions are processed for the request; this integration does not save them as a website project. Do not send secrets or private media. This public repository contains integration tooling only; it does not contain the private website source or deployment credentials.
 
 [Privacy](https://losercoreplaylist.com/privacy) · [Terms](https://losercoreplaylist.com/terms) · Support: joyforjoker43@gmail.com  
-MIT for the files in this repository. The license does not grant rights to third-party recordings, lyrics, brands, or the separately hosted website implementation.
+The skill directory is MIT-0 (matching ClawHub publication terms); the bridge and other root files are MIT. These licenses do not grant rights to third-party recordings, lyrics, brands, or the separately hosted website implementation.
 
 ## Verify
 

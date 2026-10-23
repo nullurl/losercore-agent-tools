@@ -1,10 +1,10 @@
 ---
 name: losercore-playlist
 description: Plan Losercore playlist or lyric videos, search starter tracks, retrieve original scene templates, and prepare JSON projects for the free browser video workspace. Also answers product and credit questions using live public references.
-license: MIT
+license: MIT-0
 metadata:
   author: nullurl
-  version: "1.0.0"
+  version: "1.0.1"
   homepage: https://losercoreplaylist.com/developers/mcp
 ---
 
