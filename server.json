@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.losercoreplaylist/creative-tools",
+  "title": "Losercore Playlist",
+  "description": "Search starter tracks, get original scene prompts and prepare free local playlist video projects.",
+  "version": "1.0.0",
+  "websiteUrl": "https://losercoreplaylist.com/developers/mcp",
+  "remotes": [{ "type": "streamable-http", "url": "https://losercoreplaylist.com/mcp" }]
+}
